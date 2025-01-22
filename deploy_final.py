@@ -81,7 +81,7 @@ def calculate_reported_bins(reported_date, occurred_date):
 
 # Streamlit UI
 st.title("Crime Classification App 🚔")
-st.write("Enter crime details to classify the type of crime and view model metrics.")
+st.write("Enter crime details to classify the type of crime.")
 
 # User input fields
 location = st.selectbox("Location", options=train_df['Location'].dropna().unique())
