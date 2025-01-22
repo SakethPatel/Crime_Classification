@@ -117,7 +117,7 @@ occurred_date = st.date_input("Occurred Date")
 # Display "Time Occurred Label" dropdown with the updated options
 time_occurred_label = st.selectbox("Time Occurred Label", ["Morning", "Afternoon", "Evening", "Night"])
 
-victim_age = st.number_input("Victim Age", min_value=0, max_value=120, value=30)
+victim_age = st.number_input("Victim Age", min_value=0, max_value=100, value=30)
 part_1_2 = st.selectbox("Part 1-2 Classification", [1, 2])
 
 # Predict Button
